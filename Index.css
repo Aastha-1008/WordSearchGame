@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=Tourney:wght@100;400&display=swap');
+
+*{
+    margin:0px;
+    overflow: hidden;
+}
+#header{
+    font-family: 'Tourney', sans-serif;
+    font-size: 40px;
+    height: 130px;
+    text-align: center;
+    display: flex;
+    flex-wrap: column wrap;
+    justify-content: space-evenly;
+}
+#heading{
+    width: 30%;
+    margin-top: 2rem;
+}
+#banner1,#banner2{
+    width: 30rem;
+    height: 25rem;
+    margin-top: -11rem;
+}
+#container{
+    width: 810px;
+    height: 700px;
+    margin: 1px auto;
+}
+#hint{
+    width: 200px;
+    height: 570px;
+    float: left;
+    text-align:center;
+    font-size: 30px;
+    border: 1px solid black;
+    font-family: 'Gluten', cursive;
+}
+#letters{
+    width: 580px;
+    height: 570px;
+    float: right;
+    padding-left: 6px;
+}
+
+#schoolImg,#books,#children{
+    width: 18%;
+    height: 35%
+}
+#schoolImg,#books{
+    position: absolute;
+    bottom: 0%;
+}
+#books{
+    right:0%;
+}
+#children{
+    position: absolute;
+    left: 0%;
+    top: 30%;
+    height: 30%;
+}
+#hint p{
+    padding: 18px 0px;
+}
+.individual{
+    width: 40px;
+    height:40px;
+    float:left;
+    border-radius: 2px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 3px;
+    font-size: 25px;
+    cursor: pointer !important;
+}
+.done{
+    text-decoration: line-through;
+}
+.purple{
+    background-color: rgb(213, 156, 213);
+}
+.green{
+    background-color: rgb(174, 213, 156);
+}
